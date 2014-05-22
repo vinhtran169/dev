@@ -130,6 +130,10 @@ Learn more
 
     + https://www.shortcutfoo.com/app/tutorial/vim
 
+- Nodejs
+
+    + http://nodejs.org/api/
+
 - Linux
 
     + http://www.quora.com/Linux/What-are-the-good-online-resources-for-a-linux-newbie
