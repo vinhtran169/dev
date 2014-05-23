@@ -14,7 +14,7 @@ problems you could meet with proposed solutions.
 Usage
 -----
 
-- ``$ vagrant up`` to boot the VM
+- ``$ vagrant up`` to boot the VMz
 
 - ``$ vagrant ssh`` to access the VM via SSH
 
@@ -30,7 +30,9 @@ Follow the guide at: http://dev.teracy.org/docs/develop/getting_started.html
 Configuration
 -------------
 
-All configuration is on ``Vagrantfile`` file.
+All configuration is on ``Vagrantfile`` and ``Vagrant_Config.yml`` files.
+We keep all main configurations in Vagrantfile. But actually, you should only work with Vagrant_Config file
+where allows you change every configuration of Vagrant. And we recommend that for some upgrade reasons.
 
 
 ``workspace`` directory
