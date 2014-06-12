@@ -34,7 +34,7 @@
 
 # JUST change the attribute version below to change the git version. No more work here
 node.override['git']['version'] = '2.0.0'
-node.override['git']['url'] = 'https://www.kernel.org/pub/software/scm/git/git-#{node['git']['version']}.tar.gz'
+node.override['git']['url'] = "https://www.kernel.org/pub/software/scm/git/git-#{node['git']['version']}.tar.gz"
 
 include_recipe 'git::source'
 
