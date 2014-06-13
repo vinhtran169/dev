@@ -3,7 +3,7 @@
 # Cookbook Name:: git
 # Attributes:: default
 #
-# Copyright 2008-2014, Chef Software, Inc.
+# Copyright 2008-2012, Opscode, Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the 'License');
 # you may not use this file except in compliance with the License.
@@ -32,7 +32,7 @@ when 'mac_os_x'
 else
   default['git']['prefix'] = '/usr/local'
   default['git']['version'] = '1.8.2.1'
-  default['git']['url'] = "https://www.kernel.org/pub/software/scm/git/git-#{node['git']['version']}.tar.gz"
+  default['git']['url'] = "https://nodeload.github.com/git/git/tar.gz/v#{node['git']['version']}"
   default['git']['checksum'] = 'bdc1768f70ce3d8f3e4edcdcd99b2f85a7f8733fb684398aebe58dde3e6bcca2'
 end
 

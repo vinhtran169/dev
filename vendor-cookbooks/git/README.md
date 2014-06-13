@@ -20,7 +20,6 @@ The following platform families are supported:
 * Arch
 * RHEL
 * Fedora
-* FreeBSD (client only)
 * Mac OS X (10.6.0+)
 * Windows
 
@@ -101,7 +100,7 @@ License and Author
 ==================
 
 - Author:: Joshua Timberman (<joshua@opscode.com>)
-- Copyright:: 2009-2014, Chef Software, Inc.
+- Copyright:: 2009-2012, Opscode, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
